@@ -22,16 +22,21 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
 ## Usage
 
 First import the module
+
 `import ImageBase64Handler`
 
-if you want to convert a base64 url and output it to a file 
+if you want to convert a base64 url and output it to a file
+
 `base64ToImage(base64data, fileOutputPath)`
+
 This will output the image to the designated `fileOutputPath`
 
 if you want to convert base64 file and convert it to an image file
+
 `base64urlFiletoImage(fileInputPath, fileOutputPath)`
 
 if you want to convert a image to a base64url file
+
 `imagetobase64(fileInputPath, fileOutputPath)`
 
 This will take a image file path and an output file path and output the base64 data into that file
